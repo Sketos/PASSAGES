@@ -1,0 +1,23 @@
+The name of your calibrated measurement set (ms) is,
+
+uid___A002_X11adad7_Xdfdb.ms.split.cal 
+
+SpwID	#Chans
+25	960		->	Continuum
+27	960 		->	Continuum
+29	960 		->	Continuum
+31	960 		->	Emission line
+
+Run uvcontsub to produce a new ms,
+
+uid___A002_X11adad7_Xdfdb.ms.split.cal.contsub
+
+————————————————————————————————
+
+Export continuum visibilities for PyAutoLens
+
+exec(“main_example.py”)
+
+Export emission line visibilities for PyAutoLensKin
+
+exec(“main_uvcontsub_example.py”)
