@@ -21,3 +21,17 @@ exec(“main_example.py”)
 Export emission line visibilities for PyAutoLensKin
 
 exec(“main_uvcontsub_example.py”)
+
+————————————————————————————————
+
+You will produce the following files:
+
+uv_wavelengths_A002_X11adad7_Xdfdb_SPT0314-44_spw_25_width_960.fits
+uv_wavelengths_A002_X11adad7_Xdfdb_SPT0314-44_spw_27_width_960.fits
+uv_wavelengths_A002_X11adad7_Xdfdb_SPT0314-44_spw_29_width_960.fits
+uv_wavelengths_A002_X11adad7_Xdfdb_SPT0314-44_spw_31_width_30_contsub.fits
+visibilities_A002_X11adad7_Xdfdb_SPT0314-44_spw_25_width_960.fits
+visibilities_A002_X11adad7_Xdfdb_SPT0314-44_spw_27_width_960.fits
+visibilities_A002_X11adad7_Xdfdb_SPT0314-44_spw_29_width_960.fits
+visibilities_A002_X11adad7_Xdfdb_SPT0314-44_spw_31_width_30_contsub.fits
+...
